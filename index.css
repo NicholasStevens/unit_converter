@@ -1,3 +1,20 @@
 body {
   margin: 0;
+  text-align: center;
+}
+
+.hero {
+  background: #6943fe;
+  color: white;
+  padding: 30px;
+}
+
+.main {
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+.unit-box {
+  background: white;
+  padding: 5px;
 }
