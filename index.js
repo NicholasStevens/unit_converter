@@ -21,16 +21,16 @@ calcBtn.addEventListener("click", function () {
 
   lengthEl.textContent = `${baseValue} meters = ${
     baseValue * meterToFeet
-  } feet | ${baseValue} feet = ${(baseValue * feetToMeter).toFixed(2)} meters`;
+  } feet | ${baseValue} feet = ${(baseValue * feetToMeter).toFixed(3)} meters`;
   volumeEl.textContent = `${baseValue} litres = ${
     baseValue * litreToGallon
   } gallons | ${baseValue} gallons is ${(baseValue * gallonToLitre).toFixed(
-    2
+    3
   )} litres`;
   massEl.textContent = `${baseValue} kilograms = ${
     baseValue * kiloToPound
   } pounds | ${baseValue} pounds = ${(baseValue * poundToKilo).toFixed(
-    2
+    3
   )} kilos`;
 
   inputEl.value = "";
